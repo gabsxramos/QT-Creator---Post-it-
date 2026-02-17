@@ -1,0 +1,26 @@
+# Arquivos de compilação e objetos
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Pastas de Build (Qt Creator cria essas pastas gigantes)
+build-*/
+debug/
+release/
+
+# Arquivos específicos do Qt Creator (configurações locais)
+*.pro.user
+*.pro.user.*
+*.qmlc
+*.jsc
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos temporários do Windows
+Thumbs.db
+Desktop.ini
